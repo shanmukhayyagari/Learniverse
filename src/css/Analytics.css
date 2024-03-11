@@ -1,0 +1,32 @@
+.analytics-container {
+    max-width: 30%;
+    margin: 50px auto;
+}
+
+.analytics-container h3 {
+    text-align: center;
+}
+
+.analytics-container>img {
+    display: block;
+    margin: 30px auto;
+}
+
+@media screen and (max-width:900px){
+    .analytics-container {
+        max-width: 40%;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width:600px){
+    .analytics-container {
+        max-width: 40%;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width:450px){
+    .analytics-container {
+        max-width: 50%;
+        margin: 50px auto;
+    }
+}

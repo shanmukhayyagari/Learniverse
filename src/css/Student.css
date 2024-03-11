@@ -1,0 +1,111 @@
+.student-container {
+    max-width: 90%;
+    margin: 50px auto;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-btn {
+    border: 1px solid brown;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.edit-btn:hover{
+    background-color: brown;
+    color: white;
+}
+.student-data{
+    border: 1px solid brown;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.student-heading-container{
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+    max-width: 20%;
+    display: block;
+    margin: 15px auto;
+}
+.student-headings{
+    /* border: 1px solid brown; */
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+div p{
+    text-align: center;
+}
+
+div p+p{
+    border-bottom: 1px solid brown;
+    
+}
+.st-main-container{
+    
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.st-main-container>div{
+    border: 1px solid brown;
+    border-radius: 10px;
+    flex: 0  30.333333%;
+}
+
+.st-btn{
+    border: 1px solid brown;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.st-btn:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+.st1-btn{
+    border: 1px solid brown;
+    text-align: center;
+    margin : 10px auto ;
+    max-width:20%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.st1-btn:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px){
+    .st1-btn{
+        max-width:40%;
+    }
+    .st-main-container{
+        flex-direction: column !important;
+    }
+    .student-heading-container{
+        max-width:100%;
+    }
+}

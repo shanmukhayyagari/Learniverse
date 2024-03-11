@@ -1,0 +1,96 @@
+/* Styles for the student table container */
+.student-table {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the table */
+table.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styles for table headers */
+table.student-table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+.table1{
+    /* display: none; */
+     width:100%; 
+    overflow-x: auto !important;
+}
+
+/* Styles for table rows */
+table.student-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styles for table cells */
+table.student-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styles for action buttons */
+.edit-button,
+.delete-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #0056b3;
+}
+
+/* Add your existing CSS styles here */
+
+/* Styles for the form */
+h2{
+    margin: 20px auto;
+    text-align: center;
+}
+.add-student-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-student-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-student-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,11 @@
+#form{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* height: */
+    background: gray;
+    padding:40px;
+    justify-content: space-evenly;
+    background: rgb(176 214 255);
+}

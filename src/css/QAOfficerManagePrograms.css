@@ -1,0 +1,100 @@
+/* Styles for the QA officer's manage programs container */
+.qa-officer-manage-programs {
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the table */
+table.programs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styles for table headers */
+table.programs-table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+.table1{
+    /* display: none; */
+     width:100%; 
+    overflow-x: auto !important;
+}
+
+/* Styles for table rows */
+table.programs-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styles for table cells */
+table.programs-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styles for action buttons */
+.approve-button,
+.reject-button,
+.delete-button,
+.add-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.approve-button:hover,
+.reject-button:hover,
+.delete-button:hover,
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the Add Program popup */
+.add-program-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.add-program-popup h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.add-program-popup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.add-program-popup input[type="text"],
+.add-program-popup textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-program-popup button[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-program-popup button[type="button"]:hover {
+    background-color: #0056b3;
+}

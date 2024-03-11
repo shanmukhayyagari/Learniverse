@@ -1,0 +1,63 @@
+/* Add this CSS to your stylesheet or component */
+
+.chat {
+    border: 1px solid #ccc;
+    position: sticky;
+    top: 1;
+    z-index: 100;
+    border-radius: 5px;
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.chat h2 {
+    font-size: 18px;
+    /* margin-bottom: 20px; */
+}
+
+.chat-messages {
+    height: 100px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.chat-message {
+    margin-bottom: 5px;
+}
+
+.chat-sender {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+}
+
+.chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #0056b3;
+}

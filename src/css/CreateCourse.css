@@ -1,0 +1,23 @@
+#form
+{
+     display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background: rgb(176 214 255); 
+}
+@media screen and (max-width:550px){
+    .sub-main{
+        width:80vw !important;
+    }
+    .main{
+        width:100vw !important;
+    }
+    #form{
+        width:80vw !important;
+    }
+}
